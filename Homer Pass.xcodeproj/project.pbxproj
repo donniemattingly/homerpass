@@ -7,21 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F57DFFB42A0B52D4C9437D85 /* Pods_Homer_Pass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B1E904F5DCB00DF3F3B23C /* Pods_Homer_Pass.framework */; };
 		F80AEEA01E2048B400907135 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80AEE9F1E2048B400907135 /* AppDelegate.swift */; };
-		F80AEEA21E2048B400907135 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80AEEA11E2048B400907135 /* ViewController.swift */; };
+		F80AEEA21E2048B400907135 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80AEEA11E2048B400907135 /* HomeViewController.swift */; };
 		F80AEEA51E2048B400907135 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80AEEA31E2048B400907135 /* Main.storyboard */; };
 		F80AEEA71E2048B400907135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80AEEA61E2048B400907135 /* Assets.xcassets */; };
 		F80AEEAA1E2048B400907135 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80AEEA81E2048B400907135 /* LaunchScreen.storyboard */; };
+		F87CF4A41E21844500AA9CE4 /* ConfirmCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87CF4A31E21844500AA9CE4 /* ConfirmCardViewController.swift */; };
+		F87CF4A81E21923E00AA9CE4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = F87CF4A71E21923E00AA9CE4 /* Podfile */; };
+		F8830D1E1E21347C00A02E7D /* barcode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8830D1D1E21347C00A02E7D /* barcode.swift */; };
+		F8830D201E21430D00A02E7D /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8830D1F1E21430D00A02E7D /* AddCardViewController.swift */; };
+		F8A753371E22CEFA009A5ABA /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A753361E22CEFA009A5ABA /* HistoryViewController.swift */; };
+		F8A753391E22D886009A5ABA /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A753381E22D886009A5ABA /* HistoryCell.swift */; };
+		F8E02AA81E22891A000A5B76 /* DepotButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E02AA71E22891A000A5B76 /* DepotButton.swift */; };
+		F8E02AAA1E229C45000A5B76 /* BarcodeFocusArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E02AA91E229C45000A5B76 /* BarcodeFocusArea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F45274B90669914E64781EB /* Pods-Homer Pass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homer Pass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Homer Pass/Pods-Homer Pass.debug.xcconfig"; sourceTree = "<group>"; };
+		75288C266C06B9246E2A99E7 /* Pods-Homer Pass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homer Pass.release.xcconfig"; path = "Pods/Target Support Files/Pods-Homer Pass/Pods-Homer Pass.release.xcconfig"; sourceTree = "<group>"; };
+		C3B1E904F5DCB00DF3F3B23C /* Pods_Homer_Pass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homer_Pass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80AEE9C1E2048B400907135 /* Homer Pass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homer Pass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80AEE9F1E2048B400907135 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F80AEEA11E2048B400907135 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F80AEEA11E2048B400907135 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F80AEEA41E2048B400907135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F80AEEA61E2048B400907135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F80AEEA91E2048B400907135 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F80AEEAB1E2048B400907135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87CF4A31E21844500AA9CE4 /* ConfirmCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmCardViewController.swift; sourceTree = "<group>"; };
+		F87CF4A71E21923E00AA9CE4 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F8830D1D1E21347C00A02E7D /* barcode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = barcode.swift; sourceTree = "<group>"; };
+		F8830D1F1E21430D00A02E7D /* AddCardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		F8A753361E22CEFA009A5ABA /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		F8A753381E22D886009A5ABA /* HistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		F8E02AA71E22891A000A5B76 /* DepotButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepotButton.swift; sourceTree = "<group>"; };
+		F8E02AA91E229C45000A5B76 /* BarcodeFocusArea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeFocusArea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +49,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F57DFFB42A0B52D4C9437D85 /* Pods_Homer_Pass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AD37701E877A7BBD9E139ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F45274B90669914E64781EB /* Pods-Homer Pass.debug.xcconfig */,
+				75288C266C06B9246E2A99E7 /* Pods-Homer Pass.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7BF982EC8AA01BDD236E841F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3B1E904F5DCB00DF3F3B23C /* Pods_Homer_Pass.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F80AEE931E2048B300907135 = {
 			isa = PBXGroup;
 			children = (
+				F87CF4A71E21923E00AA9CE4 /* Podfile */,
 				F80AEE9E1E2048B400907135 /* Homer Pass */,
 				F80AEE9D1E2048B400907135 /* Products */,
+				0AD37701E877A7BBD9E139ED /* Pods */,
+				7BF982EC8AA01BDD236E841F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +96,18 @@
 			isa = PBXGroup;
 			children = (
 				F80AEE9F1E2048B400907135 /* AppDelegate.swift */,
-				F80AEEA11E2048B400907135 /* ViewController.swift */,
+				F80AEEA11E2048B400907135 /* HomeViewController.swift */,
+				F8830D1F1E21430D00A02E7D /* AddCardViewController.swift */,
+				F87CF4A31E21844500AA9CE4 /* ConfirmCardViewController.swift */,
+				F8A753361E22CEFA009A5ABA /* HistoryViewController.swift */,
 				F80AEEA31E2048B400907135 /* Main.storyboard */,
 				F80AEEA61E2048B400907135 /* Assets.xcassets */,
 				F80AEEA81E2048B400907135 /* LaunchScreen.storyboard */,
 				F80AEEAB1E2048B400907135 /* Info.plist */,
+				F8830D1D1E21347C00A02E7D /* barcode.swift */,
+				F8E02AA71E22891A000A5B76 /* DepotButton.swift */,
+				F8E02AA91E229C45000A5B76 /* BarcodeFocusArea.swift */,
+				F8A753381E22D886009A5ABA /* HistoryCell.swift */,
 			);
 			path = "Homer Pass";
 			sourceTree = "<group>";
@@ -71,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F80AEEAE1E2048B400907135 /* Build configuration list for PBXNativeTarget "Homer Pass" */;
 			buildPhases = (
+				491679DB39B980DB9EFDDA91 /* [CP] Check Pods Manifest.lock */,
 				F80AEE981E2048B300907135 /* Sources */,
 				F80AEE991E2048B300907135 /* Frameworks */,
 				F80AEE9A1E2048B300907135 /* Resources */,
+				88FAB06F68A7525350C6686F /* [CP] Embed Pods Frameworks */,
+				E8B215A51BC085AFFB66C9D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +147,7 @@
 				TargetAttributes = {
 					F80AEE9B1E2048B300907135 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T6K3L896BM;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,19 +177,75 @@
 			files = (
 				F80AEEAA1E2048B400907135 /* LaunchScreen.storyboard in Resources */,
 				F80AEEA71E2048B400907135 /* Assets.xcassets in Resources */,
+				F87CF4A81E21923E00AA9CE4 /* Podfile in Resources */,
 				F80AEEA51E2048B400907135 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		491679DB39B980DB9EFDDA91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88FAB06F68A7525350C6686F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Homer Pass/Pods-Homer Pass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8B215A51BC085AFFB66C9D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Homer Pass/Pods-Homer Pass-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F80AEE981E2048B300907135 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F80AEEA21E2048B400907135 /* ViewController.swift in Sources */,
+				F8E02AAA1E229C45000A5B76 /* BarcodeFocusArea.swift in Sources */,
+				F8830D201E21430D00A02E7D /* AddCardViewController.swift in Sources */,
+				F80AEEA21E2048B400907135 /* HomeViewController.swift in Sources */,
+				F8A753391E22D886009A5ABA /* HistoryCell.swift in Sources */,
+				F8E02AA81E22891A000A5B76 /* DepotButton.swift in Sources */,
+				F8830D1E1E21347C00A02E7D /* barcode.swift in Sources */,
 				F80AEEA01E2048B400907135 /* AppDelegate.swift in Sources */,
+				F87CF4A41E21844500AA9CE4 /* ConfirmCardViewController.swift in Sources */,
+				F8A753371E22CEFA009A5ABA /* HistoryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +366,12 @@
 		};
 		F80AEEAF1E2048B400907135 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F45274B90669914E64781EB /* Pods-Homer Pass.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T6K3L896BM;
 				INFOPLIST_FILE = "Homer Pass/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.donniemattingly.Homer-Pass";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,9 +381,12 @@
 		};
 		F80AEEB01E2048B400907135 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75288C266C06B9246E2A99E7 /* Pods-Homer Pass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T6K3L896BM;
 				INFOPLIST_FILE = "Homer Pass/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.donniemattingly.Homer-Pass";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +413,7 @@
 				F80AEEB01E2048B400907135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
