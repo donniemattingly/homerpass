@@ -28,6 +28,10 @@ class HistoryViewController: UITableViewController {
         self.refreshControl = UIRefreshControl()
         self.refreshControl?.attributedTitle = NSAttributedString(string: "Pull to refresh")
         self.refreshControl?.addTarget(self, action: #selector(HistoryViewController.handleRefresh(_:)), for: UIControlEvents.valueChanged)
+        }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        UIApplication.shared.statusBarStyle = .lightContent
     }
     
     func handleRefresh(_ refreshControl: UIRefreshControl) {
@@ -63,6 +67,7 @@ class HistoryViewController: UITableViewController {
         cell.transactionAmountLabel.text = historyItem.amount
         return cell
     }
+    
     
     func updateHistory(cardNumber:String){
         let baseUrl = "https://secure.alohaenterprise.com/servlet/MemberLinkSVServlet?companyID=thd01&requestType=checkSVCardForEPin&cardNumber="

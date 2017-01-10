@@ -52,6 +52,7 @@ class ViewController: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool){
         self.navigationController?.setNavigationBarHidden(true, animated: false)
+        UIApplication.shared.statusBarStyle = .default
         if let cardNumber = UserDefaults.standard.string(forKey: "card_number"){
             print("got card number from user defaults")
             let barcodeString = ";" + cardNumber + "?"

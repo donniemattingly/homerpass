@@ -23,10 +23,6 @@ class AddCardViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
     var code: String?
     var cameraSetup = false;
     
-    override var preferredStatusBarStyle: UIStatusBarStyle {
-        return .lightContent
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -59,6 +55,7 @@ class AddCardViewController: UIViewController, AVCaptureMetadataOutputObjectsDel
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        UIApplication.shared.statusBarStyle = .lightContent
         super.viewWillAppear(animated)
         if(!cameraSetup){
             self.setupCamera()
