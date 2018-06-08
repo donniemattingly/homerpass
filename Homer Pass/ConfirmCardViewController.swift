@@ -11,7 +11,7 @@ import UIKit
 class ConfirmCardViewController: UIViewController {
     
     @IBOutlet weak var cardNumberLabel: UILabel!
-    var code:String?
+    @objc var code:String?
     @IBOutlet weak var barcodeImageView: UIImageView!
     
     override func viewDidLoad() {

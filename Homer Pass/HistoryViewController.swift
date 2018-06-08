@@ -12,7 +12,7 @@ import SwiftyJSON
 
 class HistoryViewController: UITableViewController {
     
-    var cardNumber: String?
+    @objc var cardNumber: String?
     var historyItems = [(date: String, time:String, balance: String, amount: String)]()
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +34,7 @@ class HistoryViewController: UITableViewController {
         UIApplication.shared.statusBarStyle = .lightContent
     }
     
-    func handleRefresh(_ refreshControl: UIRefreshControl) {
+    @objc func handleRefresh(_ refreshControl: UIRefreshControl) {
         print("refreshing")
         if let cardNumber = UserDefaults.standard.string(forKey: "card_number"){
             updateHistory(cardNumber: cardNumber)
@@ -69,7 +69,7 @@ class HistoryViewController: UITableViewController {
     }
     
     
-    func updateHistory(cardNumber:String){
+    @objc func updateHistory(cardNumber:String){
         let baseUrl = "https://secure.alohaenterprise.com/servlet/MemberLinkSVServlet?companyID=thd01&requestType=checkSVCardForEPin&cardNumber="
         let url = baseUrl + cardNumber
         Alamofire.request(url)

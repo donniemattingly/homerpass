@@ -24,7 +24,7 @@ class ViewController: UITableViewController {
         self.refreshControl?.addTarget(self, action: #selector(ViewController.handleRefresh(_:)), for: UIControlEvents.valueChanged)
     }
     
-    func handleRefresh(_ refreshControl: UIRefreshControl) {
+    @objc func handleRefresh(_ refreshControl: UIRefreshControl) {
         print("refreshing")
         if let cardNumber = UserDefaults.standard.string(forKey: "card_number"){
             updateCardBalance(cardNumber: cardNumber)
@@ -32,7 +32,7 @@ class ViewController: UITableViewController {
         refreshControl.endRefreshing()
     }
     
-    func updateCardBalance(cardNumber:String) {
+    @objc func updateCardBalance(cardNumber:String) {
         let baseUrl = "https://secure.alohaenterprise.com/servlet/MemberLinkSVServlet?companyID=thd01&requestType=checkSVCardForEPin&cardNumber="
         let url = baseUrl + cardNumber
         Alamofire.request(url)

@@ -36,7 +36,7 @@ class BarcodeFocusArea : UIView {
         }
     }
     
-    func getCorners(ofRect: CGRect, lineWidth: CGFloat) -> [[UIBezierPath]]{
+    @objc func getCorners(ofRect: CGRect, lineWidth: CGFloat) -> [[UIBezierPath]]{
         var corners = [[UIBezierPath]]()
         let length = ofRect.height * 0.35
         var cornerValues = [(point: CGPoint, type: CornerType)]()
@@ -83,7 +83,7 @@ class BarcodeFocusArea : UIView {
         return corner
     }
     
-    func getPathFromPoints(point1: CGPoint, point2: CGPoint, lineWidth: CGFloat) -> UIBezierPath {
+    @objc func getPathFromPoints(point1: CGPoint, point2: CGPoint, lineWidth: CGFloat) -> UIBezierPath {
         let path = UIBezierPath()
         path.move(to: point1)
         path.addLine(to: point2)
